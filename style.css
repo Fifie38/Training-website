@@ -1,0 +1,41 @@
+body {
+    background-color: #a5a4ce;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #c0c0c0;
+    width: 100%;
+}
+
+header h2 {
+    margin: 0;
+}
+
+.title {
+    background-color: #0d66a4;
+    box-shadow: 0 0 0 3px #3465a4, 1em 1em 3px 0 rgb(0 0 0 / 50%);
+    color: azure;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.windows {
+    border: 6px double #fff;
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.article_1 {
+    background-color: silver;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    box-shadow: 0 0 0 3px silver, 1em 1em 3px 0 rgb(0 0 0 / 50%);
+}
