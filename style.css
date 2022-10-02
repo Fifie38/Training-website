@@ -34,8 +34,18 @@ header h2 {
 
 .article_1 {
     background-color: silver;
-    padding-right: 15px;
-    padding-left: 15px;
 
     box-shadow: 0 0 0 3px silver, 1em 1em 3px 0 rgb(0 0 0 / 50%);
+}
+
+.article_1 p {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+video {
+    display: block;
+    margin:0 auto 35px auto;
+    width:480;
+    box-shadow: 0 0 0 3px silver, 1em 1em 3px 0 rgb(0 0 0 / 50%);
+    
 }
