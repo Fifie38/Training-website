@@ -32,16 +32,16 @@ header h2 {
     margin-top: 2em;
 }
 
-.article_1 {
+.article {
     background-color: silver;
-
     box-shadow: 0 0 0 3px silver, 1em 1em 3px 0 rgb(0 0 0 / 50%);
 }
 
-.article_1 p {
+.article p {
     padding-right: 15px;
     padding-left: 15px;
 }
+
 video {
     display: block;
     margin:0 auto 35px auto;
