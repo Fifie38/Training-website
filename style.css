@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'FreeMono';
+    src: url(./FreeMono.otf) format('truetype');
+}
+
 body {
     background-color: #a5a4ce;
     display: flex;
     flex-direction: column;
     margin: 0;
     font-size: 1.1em;
+    font-family: 'FreeMono';
 }
 
 header {
@@ -21,9 +27,12 @@ header h3 {
     box-shadow: 0 0 0 3px #3465a4, 1em 1em 3px 0 rgb(0 0 0 / 50%);
     color: azure;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
+.title h1 {
+    margin: 5px 0 1px 0;
 }
 
 .windows {
@@ -52,16 +61,33 @@ video {
 
 footer {
     display: flex;
-    flex: 1;
     justify-content: space-evenly;
-    margin-top: 25px;
-    padding: 3px 0 3px 0;
+    margin-top: 40px;
     background-color: #c0c0c0;
 }
 footer p {
     margin: 0;
+    padding: 2px 5px 2px 5px;
+    
 }
 footer a {
     color: black;
     text-decoration: none;
+}
+footer p:hover {
+    background-color: #817c7c;
+    color: #c0c0c0;
+    }
+#heart_footer {
+    color:#0d66a4;
+}
+
+
+
+
+
+@media (min-width: 1000px) {
+    .windows {
+        width: 55%;
+    }
 }
